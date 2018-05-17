@@ -90,44 +90,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/17/tools/" data-id="cjhag566c0002r4ulrott2a0u" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-咨询" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/05/17/咨询/" class="article-date">
-  <time datetime="2018-05-17T10:18:05.000Z" itemprop="datePublished">2018-05-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/17/咨询/">咨询</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>###营业部查询<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">//icp库查营业部组织信息</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> t_bee_group_dept_map <span class="keyword">where</span> <span class="keyword">name</span>=<span class="string">'营业部名称'</span>;</span><br><span class="line">//查询groups</span><br><span class="line"><span class="keyword">SELECT</span> PK_BEEHIVE_DATA_AUTH_GENERATE.FN_GETGROUPIDS_BY_SMPDEPTID(部门<span class="keyword">ID</span>) <span class="keyword">FROM</span> dual;</span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> t_bee_group_dept_map <span class="keyword">where</span> <span class="keyword">GROUP_ID</span> <span class="keyword">in</span> (组<span class="keyword">id</span>)</span><br><span class="line">//修改客户归属变更字段</span><br><span class="line"><span class="keyword">select</span> a.STRCLIENT_NAME,a.INTID_NUMBER,b.smp_Office_Id,</span><br><span class="line">c.real_sale_name,c.real_sale_emp_no,c.strsale_name,c.sale_emp_no,</span><br><span class="line">d.CUSTOMER_SOURCE,d.AGENTLOGIN_NAME,d.AGENTLOGIN_ID,d.AGENTLOGIN_LEADER_NAME,d.AGENTLOGIN_LEADER_ID,d.DATA_SOURCES</span><br><span class="line"><span class="keyword">from</span> tsm_apply_info a <span class="keyword">join</span> TSM_APPLY_SMP_DEPARTMENT b <span class="keyword">on</span> a.apply_id = b.apply_id </span><br><span class="line"><span class="keyword">left</span> <span class="keyword">join</span> tsm_apply_info c <span class="keyword">on</span> b.APPLY_ID = c.Apply_id </span><br><span class="line"><span class="keyword">left</span> <span class="keyword">join</span> tsm_user d <span class="keyword">on</span> c.user_id = d.user_id </span><br><span class="line"><span class="keyword">where</span> a.apply_id=</span><br></pre></td></tr></table></figure></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/17/咨询/" data-id="cjhag566n0003r4ul5sns8a7e" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/05/17/tools/" data-id="cjhage8pd0002uoulkwrk40nn" class="article-share-link">Share</a>
       
       
     </footer>
@@ -165,7 +128,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/17/lwg/" data-id="cjhag566a0001r4ulnph1koo6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/05/17/lwg/" data-id="cjhage8p30001uouleb25nrfm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -210,7 +173,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/17/hello-world/" data-id="cjhag56660000r4ulfj4yjgpg" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/05/17/hello-world/" data-id="cjhage8ot0000uouljy7zyacl" class="article-share-link">Share</a>
       
       
     </footer>
@@ -252,10 +215,6 @@
         
           <li>
             <a href="/2018/05/17/tools/">tools</a>
-          </li>
-        
-          <li>
-            <a href="/2018/05/17/咨询/">咨询</a>
           </li>
         
           <li>
