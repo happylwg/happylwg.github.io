@@ -1,0 +1,1048 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>java并发编程 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="从0开始学架构.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.</b>
+                    
+                    地址链接
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../address/link.html">
+            
+                <a href="../address/link.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../address/share.html">
+            
+                <a href="../address/share.html">
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    共享
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    课程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="java并发编程.html">
+            
+                <a href="java并发编程.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    java并发编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="从0开始学架构.html">
+            
+                <a href="从0开始学架构.html">
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    从0开始学架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="搭建秒杀系统.html">
+            
+                <a href="搭建秒杀系统.html">
+            
+                    
+                        <b>1.3.3.</b>
+                    
+                    搭建秒杀系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../base/binary.html">
+            
+                <a href="../base/binary.html">
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    位运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../base/io.html">
+            
+                <a href="../base/io.html">
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    io
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../base/JUC.html">
+            
+                <a href="../base/JUC.html">
+            
+                    
+                        <b>1.4.3.</b>
+                    
+                    JUC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../base/mst.html">
+            
+                <a href="../base/mst.html">
+            
+                    
+                        <b>1.4.4.</b>
+                    
+                    mst
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../base/算法.html">
+            
+                <a href="../base/算法.html">
+            
+                    
+                        <b>1.4.5.</b>
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../base/领导力.html">
+            
+                <a href="../base/领导力.html">
+            
+                    
+                        <b>1.4.6.</b>
+                    
+                    领导力
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../base/idea.html">
+            
+                <a href="../base/idea.html">
+            
+                    
+                        <b>1.4.7.</b>
+                    
+                    idea
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="../base/template.html">
+            
+                <a href="../base/template.html">
+            
+                    
+                        <b>1.4.7.1.</b>
+                    
+                    模版配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                        <b>1.5.</b>
+                    
+                    数据库
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../database/mysql.html">
+            
+                <a href="../database/mysql.html">
+            
+                    
+                        <b>1.5.1.</b>
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../database/redis.html">
+            
+                <a href="../database/redis.html">
+            
+                    
+                        <b>1.5.2.</b>
+                    
+                    redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../base/事务.html">
+            
+                <a href="../base/事务.html">
+            
+                    
+                        <b>1.5.3.</b>
+                    
+                    事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                        <b>1.6.</b>
+                    
+                    jvm
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../jvm/jvm.html">
+            
+                <a href="../jvm/jvm.html">
+            
+                    
+                        <b>1.6.1.</b>
+                    
+                    内存优化汇总篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../optimization/线上排查汇总.html">
+            
+                <a href="../optimization/线上排查汇总.html">
+            
+                    
+                        <b>1.6.2.</b>
+                    
+                    线上排查
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                        <b>1.7.</b>
+                    
+                    spring
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../spring/spring-security.html">
+            
+                <a href="../spring/spring-security.html">
+            
+                    
+                        <b>1.7.1.</b>
+                    
+                    spring-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >java并发编程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;"><b>1.3.1.1.1. </b>&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;</a></li><ul><li><span class="title-icon "></span><a href="#&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;"><b>1.3.1.1.1.1. </b>&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;</a></li><li><span class="title-icon "></span><a href="#&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;"><b>1.3.1.1.1.2. </b>&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;</a></li><li><span class="title-icon "></span><a href="#&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;"><b>1.3.1.1.1.3. </b>&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;</a></li></ul><li><span class="title-icon "></span><a href="#&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;"><b>1.3.1.1.2. </b>&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;</a></li><ul><li><span class="title-icon "></span><a href="#happens-before-&#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;"><b>1.3.1.1.2.1. </b>Happens-Before &#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;</a></li><li><span class="title-icon "></span><a href="#1-&#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;"><b>1.3.1.1.2.2. </b>1. &#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;</a></li><li><span class="title-icon "></span><a href="#2-volatile-&#x53D8;&#x91CF;&#x89C4;&#x5219;"><b>1.3.1.1.2.3. </b>2. volatile &#x53D8;&#x91CF;&#x89C4;&#x5219;</a></li><li><span class="title-icon "></span><a href="#3&#x3001;&#x4F20;&#x9012;&#x6027;"><b>1.3.1.1.2.4. </b>3&#x3001;&#x4F20;&#x9012;&#x6027;</a></li><li><span class="title-icon "></span><a href="#4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;"><b>1.3.1.1.2.5. </b>4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;</a></li><li><span class="title-icon "></span><a href="#5-&#x7EBF;&#x7A0B;-start-&#x89C4;&#x5219;"><b>1.3.1.1.2.6. </b>5. &#x7EBF;&#x7A0B; start() &#x89C4;&#x5219;</a></li><li><span class="title-icon "></span><a href="#6-&#x7EBF;&#x7A0B;-join-&#x89C4;&#x5219;"><b>1.3.1.1.2.7. </b>6. &#x7EBF;&#x7A0B; join() &#x89C4;&#x5219;</a></li></ul><li><span class="title-icon "></span><a href="#&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;"><b>1.3.1.1.3. </b>&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;</a></li><ul><li><span class="title-icon "></span><a href="#&#x6B7B;&#x9501;"><b>1.3.1.1.3.1. </b>&#x6B7B;&#x9501;</a></li><li><span class="title-icon "></span><a href="#&#x6D3B;&#x9501;"><b>1.3.1.1.3.2. </b>&#x6D3B;&#x9501;</a></li><li><span class="title-icon "></span><a href="#&#x9965;&#x997F;"><b>1.3.1.1.3.3. </b>&#x9965;&#x997F;</a></li></ul><li><span class="title-icon "></span><a href="#&#x7EBF;&#x7A0B;"><b>1.3.1.1.4. </b>&#x7EBF;&#x7A0B;</a></li><ul><li><span class="title-icon "></span><a href="#semaphore&#x4FE1;&#x53F7;&#x91CF;"><b>1.3.1.1.4.1. </b>Semaphore(&#x4FE1;&#x53F7;&#x91CF;)</a></li><li><span class="title-icon "></span><a href="#readwritelock"><b>1.3.1.1.4.2. </b>ReadWriteLock</a></li><li><span class="title-icon "></span><a href="#stampedlock"><b>1.3.1.1.4.3. </b>StampedLock</a></li></ul></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><div class="treeview__container"><ul>
+<li><div><a href="#&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;">&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;">&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;</a><i></i></div></li>
+<li><div><a href="#&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;">&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;</a><i></i></div></li>
+<li><div><a href="#&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;">&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;">&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#happens-before-&#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;">Happens-Before &#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;</a><i></i></div></li>
+<li><div><a href="#1-&#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;">1. &#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;</a><i></i></div></li>
+<li><div><a href="#2-volatile-&#x53D8;&#x91CF;&#x89C4;&#x5219;">2. volatile &#x53D8;&#x91CF;&#x89C4;&#x5219;</a><i></i></div></li>
+<li><div><a href="#3&#x3001;&#x4F20;&#x9012;&#x6027;">3&#x3001;&#x4F20;&#x9012;&#x6027;</a><i></i></div></li>
+<li><div><a href="#4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;">4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;</a><i></i></div></li>
+<li><div><a href="#5-&#x7EBF;&#x7A0B;-start-&#x89C4;&#x5219;">5. &#x7EBF;&#x7A0B; start() &#x89C4;&#x5219;</a><i></i></div></li>
+<li><div><a href="#6-&#x7EBF;&#x7A0B;-join-&#x89C4;&#x5219;">6. &#x7EBF;&#x7A0B; join() &#x89C4;&#x5219;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;">&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#&#x6B7B;&#x9501;">&#x6B7B;&#x9501;</a><i></i></div></li>
+<li><div><a href="#&#x6D3B;&#x9501;">&#x6D3B;&#x9501;</a><i></i></div></li>
+<li><div><a href="#&#x9965;&#x997F;">&#x9965;&#x997F;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x7EBF;&#x7A0B;">&#x7EBF;&#x7A0B;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#semaphore&#x4FE1;&#x53F7;&#x91CF;">Semaphore(&#x4FE1;&#x53F7;&#x91CF;)</a><i></i></div></li>
+<li><div><a href="#readwritelock">ReadWriteLock</a><i></i></div></li>
+<li><div><a href="#stampedlock">StampedLock</a><i></i></div></li>
+</ul></li>
+</ul>
+</div>
+
+<h2 id="&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;"><a name="&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;" class="anchor-navigation-ex-anchor" href="#&#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.1. &#x5E76;&#x53D1;&#x7406;&#x8BBA;&#x57FA;&#x7840;</h2>
+<p>Cpu&#x3001;&#x5185;&#x5B58;&#x3001;I/O &#x6709;&#x4E00;&#x4E2A;&#x6838;&#x5FC3;&#x77DB;&#x76FE;&#x4E00;&#x76F4;&#x5B58;&#x5728;&#xFF0C;&#x5C31;&#x662F;&#x8FD9;&#x4E09;&#x8005;&#x7684;&#x901F;&#x5EA6;&#x5DEE;&#x5F02;.</p>
+<p>&#x7279;&#x610F;&#x63D0;&#x5230;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;&#xFF0C;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;&#xFF0C;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;&#xFF0C;</p>
+<h3 id="&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;"><a name="&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.1.1. &#x6E90;&#x5934;&#x4E4B;&#x4E00;&#xFF1A;&#x7F13;&#x5B58;&#x5BFC;&#x81F4;&#x7684;&#x53EF;&#x89C1;&#x6027;&#x95EE;&#x9898;</h3>
+<p><img src="../../assets/image-20221123100821845.png" alt="image-20221123100821845"></p>
+<h3 id="&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;"><a name="&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.1.2. &#x6E90;&#x5934;&#x4E4B;&#x4E8C;&#xFF1A;&#x7EBF;&#x7A0B;&#x5207;&#x6362;&#x5E26;&#x6765;&#x7684;&#x539F;&#x5B50;&#x6027;&#x95EE;&#x9898;</h3>
+<p><img src="../../assets/image-20221123100846052.png" alt="image-20221123100846052"></p>
+<p>&#x6307;&#x4EE4; 1&#xFF1A;&#x9996;&#x5148;&#xFF0C;&#x9700;&#x8981;&#x628A;&#x53D8;&#x91CF; count &#x4ECE;&#x5185;&#x5B58;&#x52A0;&#x8F7D;&#x5230; CPU &#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF1B;</p>
+<p>&#x6307;&#x4EE4; 2&#xFF1A;&#x4E4B;&#x540E;&#xFF0C;&#x5728;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x6267;&#x884C; +1 &#x64CD;&#x4F5C;&#xFF1B;</p>
+<p>&#x6307;&#x4EE4; 3&#xFF1A;&#x6700;&#x540E;&#xFF0C;&#x5C06;&#x7ED3;&#x679C;&#x5199;&#x5165;&#x5185;&#x5B58;&#xFF08;&#x7F13;&#x5B58;&#x673A;&#x5236;&#x5BFC;&#x81F4;&#x53EF;&#x80FD;&#x5199;&#x5165;&#x7684;&#x662F; CPU &#x7F13;&#x5B58;&#x800C;&#x4E0D;&#x662F;&#x5185;&#x5B58;&#xFF09;&#x3002;</p>
+<p><img src="../../assets/image-20221123105717202.png" alt="image-20221123105717202"></p>
+<h3 id="&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;"><a name="&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.1.3. &#x6E90;&#x5934;&#x4E4B;&#x4E09;&#xFF1A;&#x7F16;&#x8BD1;&#x4F18;&#x5316;&#x5E26;&#x6765;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x95EE;&#x9898;</h3>
+<h2 id="&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;"><a name="&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2. &#x53EF;&#x89C1;&#x6027;&#x548C;&#x6709;&#x5E8F;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;</h2>
+<p>&#x8FD9;&#x4E9B;&#x65B9;&#x6CD5;&#x5305;&#x62EC; volatile&#x3001;synchronized &#x548C; final &#x4E09;&#x4E2A;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x4EE5;&#x53CA;&#x516D;&#x9879; Happens-Before &#x89C4;&#x5219;</p>
+<h3 id="happens-before-&#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;"><a name="happens-before-&#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;" class="anchor-navigation-ex-anchor" href="#happens-before-&#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.1. Happens-Before &#x89C4;&#x5219;&#xFF1A;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x5BF9;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x662F;&#x53EF;&#x89C1;&#x7684;</h3>
+<h3 id="1-&#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;"><a name="1-&#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;" class="anchor-navigation-ex-anchor" href="#1-&#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.2. 1. &#x7A0B;&#x5E8F;&#x7684;&#x987A;&#x5E8F;&#x6027;&#x89C4;&#x5219;</h3>
+<p>&#x8FD9;&#x6761;&#x89C4;&#x5219;&#x662F;&#x6307;&#x5728;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x4E2D;&#xFF0C;&#x6309;&#x7167;&#x7A0B;&#x5E8F;&#x987A;&#x5E8F;&#xFF0C;&#x524D;&#x9762;&#x7684;&#x64CD;&#x4F5C; Happens-Before &#x4E8E;&#x540E;&#x7EED;&#x7684;&#x4EFB;&#x610F;&#x64CD;&#x4F5C;</p>
+<h3 id="2-volatile-&#x53D8;&#x91CF;&#x89C4;&#x5219;"><a name="2-volatile-&#x53D8;&#x91CF;&#x89C4;&#x5219;" class="anchor-navigation-ex-anchor" href="#2-volatile-&#x53D8;&#x91CF;&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.3. 2. volatile &#x53D8;&#x91CF;&#x89C4;&#x5219;</h3>
+<p>&#x8FD9;&#x6761;&#x89C4;&#x5219;&#x662F;&#x6307;&#x5BF9;&#x4E00;&#x4E2A; volatile &#x53D8;&#x91CF;&#x7684;&#x5199;&#x64CD;&#x4F5C;&#xFF0C; Happens-Before &#x4E8E;&#x540E;&#x7EED;&#x5BF9;&#x8FD9;&#x4E2A; volatile &#x53D8;&#x91CF;&#x7684;&#x8BFB;&#x64CD;&#x4F5C;&#x3002;</p>
+<h3 id="3&#x3001;&#x4F20;&#x9012;&#x6027;"><a name="3&#x3001;&#x4F20;&#x9012;&#x6027;" class="anchor-navigation-ex-anchor" href="#3&#x3001;&#x4F20;&#x9012;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.4. 3&#x3001;&#x4F20;&#x9012;&#x6027;</h3>
+<p>&#x8FD9;&#x6761;&#x89C4;&#x5219;&#x662F;&#x6307;&#x5982;&#x679C; A Happens-Before B&#xFF0C;&#x4E14; B Happens-Before C&#xFF0C;&#x90A3;&#x4E48; A Happens-Before C&#x3002;</p>
+<h3 id="4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;"><a name="4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;" class="anchor-navigation-ex-anchor" href="#4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.5. 4&#x3001;&#x7BA1;&#x7A0B;&#x4E2D;&#x9501;&#x7684;&#x89C4;&#x5219;</h3>
+<p>&#x8FD9;&#x6761;&#x89C4;&#x5219;&#x662F;&#x6307;&#x5BF9;&#x4E00;&#x4E2A;&#x9501;&#x7684;&#x89E3;&#x9501; Happens-Before &#x4E8E;&#x540E;&#x7EED;&#x5BF9;&#x8FD9;&#x4E2A;&#x9501;&#x7684;&#x52A0;&#x9501;&#x3002;</p>
+<p>&#x7BA1;&#x7A0B;&#x662F;&#x4E00;&#x79CD;&#x901A;&#x7528;&#x7684;&#x540C;&#x6B65;&#x539F;&#x8BED;&#xFF0C;&#x5728; Java &#x4E2D;&#x6307;&#x7684;&#x5C31;&#x662F; synchronized&#xFF0C;synchronized &#x662F; Java &#x91CC;&#x5BF9;&#x7BA1;&#x7A0B;&#x7684;&#x5B9E;&#x73B0;&#x3002;</p>
+<h3 id="5-&#x7EBF;&#x7A0B;-start-&#x89C4;&#x5219;"><a name="5-&#x7EBF;&#x7A0B;-start-&#x89C4;&#x5219;" class="anchor-navigation-ex-anchor" href="#5-&#x7EBF;&#x7A0B;-start-&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.6. 5. &#x7EBF;&#x7A0B; start() &#x89C4;&#x5219;</h3>
+<p>&#x8FD9;&#x6761;&#x662F;&#x5173;&#x4E8E;&#x7EBF;&#x7A0B;&#x542F;&#x52A8;&#x7684;&#x3002;&#x5B83;&#x662F;&#x6307;&#x4E3B;&#x7EBF;&#x7A0B; A &#x542F;&#x52A8;&#x5B50;&#x7EBF;&#x7A0B; B &#x540E;&#xFF0C;&#x5B50;&#x7EBF;&#x7A0B; B &#x80FD;&#x591F;&#x770B;&#x5230;&#x4E3B;&#x7EBF;&#x7A0B;&#x5728;&#x542F;&#x52A8;&#x5B50;&#x7EBF;&#x7A0B; B &#x524D;&#x7684;&#x64CD;&#x4F5C;&#x3002;</p>
+<h3 id="6-&#x7EBF;&#x7A0B;-join-&#x89C4;&#x5219;"><a name="6-&#x7EBF;&#x7A0B;-join-&#x89C4;&#x5219;" class="anchor-navigation-ex-anchor" href="#6-&#x7EBF;&#x7A0B;-join-&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.2.7. 6. &#x7EBF;&#x7A0B; join() &#x89C4;&#x5219;</h3>
+<p>&#x5B83;&#x662F;&#x6307;&#x4E3B;&#x7EBF;&#x7A0B; A &#x7B49;&#x5F85;&#x5B50;&#x7EBF;&#x7A0B; B &#x5B8C;&#x6210;&#xFF08;&#x4E3B;&#x7EBF;&#x7A0B; A &#x901A;&#x8FC7;&#x8C03;&#x7528;&#x5B50;&#x7EBF;&#x7A0B; B &#x7684; join() &#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#xFF09;&#xFF0C;&#x5F53;&#x5B50;&#x7EBF;&#x7A0B; B &#x5B8C;&#x6210;&#x540E;&#xFF08;&#x4E3B;&#x7EBF;&#x7A0B; A &#x4E2D; join() &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#xFF09;&#xFF0C;&#x4E3B;&#x7EBF;&#x7A0B;&#x80FD;&#x591F;&#x770B;&#x5230;&#x5B50;&#x7EBF;&#x7A0B;&#x7684;&#x64CD;&#x4F5C;&#x3002;&#x5F53;&#x7136;&#x6240;&#x8C13;&#x7684;&#x201C;&#x770B;&#x5230;&#x201D;&#xFF0C;&#x6307;&#x7684;&#x662F;&#x5BF9;&#x5171;&#x4EAB;&#x53D8;&#x91CF;&#x7684;&#x64CD;&#x4F5C;</p>
+<h2 id="&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;"><a name="&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;" class="anchor-navigation-ex-anchor" href="#&#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.3. &#x539F;&#x5B50;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x4E0D;&#x80FD;&#x7528;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x505A;&#x9501;</h2>
+<p>&#x201C;&#x540C;&#x4E00;&#x65F6;&#x523B;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x6267;&#x884C;&#x201D;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#x975E;&#x5E38;&#x91CD;&#x8981;&#xFF0C;&#x6211;&#x4EEC;&#x79F0;&#x4E4B;&#x4E3A;&#x4E92;&#x65A5;&#x3002;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x80FD;&#x591F;&#x4FDD;&#x8BC1;&#x5BF9;&#x5171;&#x4EAB;&#x53D8;&#x91CF;&#x7684;&#x4FEE;&#x6539;&#x662F;&#x4E92;&#x65A5;&#x7684;&#xFF0C;&#x90A3;&#x4E48;&#xFF0C;&#x65E0;&#x8BBA;&#x662F;&#x5355;&#x6838; CPU &#x8FD8;&#x662F;&#x591A;&#x6838; CPU&#xFF0C;&#x5C31;&#x90FD;&#x80FD;&#x4FDD;&#x8BC1;&#x539F;&#x5B50;&#x6027;&#x4E86;&#x3002;</p>
+<p><img src="../../assets/image-20221123111119505.png" alt="image-20221123111119505"></p>
+<p>synchronized : &#x5F53;&#x4FEE;&#x9970;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x9501;&#x5B9A;&#x7684;&#x662F;&#x5F53;&#x524D;&#x7C7B;&#x7684; Class &#x5BF9;&#x8C61;.&#x5F53;&#x4FEE;&#x9970;&#x975E;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x9501;&#x5B9A;&#x7684;&#x662F;&#x5F53;&#x524D;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61; this&#x3002;</p>
+<p>&#x9501;&#x80FD;&#x8986;&#x76D6;&#x6240;&#x6709;&#x53D7;&#x4FDD;&#x62A4;&#x8D44;&#x6E90;,&#x3002;&#x5982;&#x679C;&#x8D44;&#x6E90;&#x4E4B;&#x95F4;&#x6709;&#x5173;&#x8054;&#x5173;&#x7CFB;&#xFF0C;&#x5C31;&#x8981;&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x7C92;&#x5EA6;&#x66F4;&#x5927;&#x7684;&#x9501;&#xFF0C;&#x8FD9;&#x4E2A;&#x9501;&#x5E94;&#x8BE5;&#x80FD;&#x591F;&#x8986;&#x76D6;&#x6240;&#x6709;&#x76F8;&#x5173;&#x7684;&#x8D44;&#x6E90;</p>
+<pre><code class="lang-java">
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
+  <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> balance;
+  <span class="hljs-comment">// &#x8F6C;&#x8D26;</span>
+  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">transfer</span><span class="hljs-params">(Account target, <span class="hljs-keyword">int</span> amt)</span></span>{
+    <span class="hljs-keyword">synchronized</span>(Account.class) {
+      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.balance &gt; amt) {
+        <span class="hljs-keyword">this</span>.balance -= amt;
+        target.balance += amt;
+      }
+    }
+  } 
+}
+</code></pre>
+<h3 id="&#x6B7B;&#x9501;"><a name="&#x6B7B;&#x9501;" class="anchor-navigation-ex-anchor" href="#&#x6B7B;&#x9501;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.3.1. &#x6B7B;&#x9501;</h3>
+<p>&#x56DB;&#x4E2A;&#x6761;&#x4EF6;&#x90FD;&#x53D1;&#x751F;&#x65F6;&#x624D;&#x4F1A;&#x51FA;&#x73B0;&#x6B7B;&#x9501;&#xFF1A;</p>
+<p>1&#x3001;&#x4E92;&#x65A5;&#xFF0C;&#x5171;&#x4EAB;&#x8D44;&#x6E90; X &#x548C; Y &#x53EA;&#x80FD;&#x88AB;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x5360;&#x7528;&#xFF1B;</p>
+<p>2&#x3001;&#x5360;&#x6709;&#x4E14;&#x7B49;&#x5F85;&#xFF0C;&#x7EBF;&#x7A0B; T1 &#x5DF2;&#x7ECF;&#x53D6;&#x5F97;&#x5171;&#x4EAB;&#x8D44;&#x6E90; X&#xFF0C;&#x5728;&#x7B49;&#x5F85;&#x5171;&#x4EAB;&#x8D44;&#x6E90; Y &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E0D;&#x91CA;&#x653E;&#x5171;&#x4EAB;&#x8D44;&#x6E90; X&#xFF1B;</p>
+<p>3&#x3001;&#x4E0D;&#x53EF;&#x62A2;&#x5360;&#xFF0C;&#x5176;&#x4ED6;&#x7EBF;&#x7A0B;&#x4E0D;&#x80FD;&#x5F3A;&#x884C;&#x62A2;&#x5360;&#x7EBF;&#x7A0B; T1 &#x5360;&#x6709;&#x7684;&#x8D44;&#x6E90;&#xFF1B;</p>
+<p>4&#x3001;&#x5FAA;&#x73AF;&#x7B49;&#x5F85;&#xFF0C;&#x7EBF;&#x7A0B; T1 &#x7B49;&#x5F85;&#x7EBF;&#x7A0B; T2 &#x5360;&#x6709;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x7EBF;&#x7A0B; T2 &#x7B49;&#x5F85;&#x7EBF;&#x7A0B; T1 &#x5360;&#x6709;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x5C31;&#x662F;&#x5FAA;&#x73AF;&#x7B49;&#x5F85;&#x3002;</p>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x53EA;&#x8981;&#x6211;&#x4EEC;&#x7834;&#x574F;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x6210;&#x529F;&#x907F;&#x514D;&#x6B7B;&#x9501;&#x7684;&#x53D1;&#x751F;&#x3002;</p>
+<ul>
+<li>&#x5BF9;&#x4E8E;&#x201C;&#x5360;&#x7528;&#x4E14;&#x7B49;&#x5F85;&#x201D;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x6027;&#x7533;&#x8BF7;&#x6240;&#x6709;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x4E0D;&#x5B58;&#x5728;&#x7B49;&#x5F85;&#x4E86;&#x3002;</li>
+</ul>
+<pre><code class="lang-java">
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Allocator</span> </span>{
+  <span class="hljs-keyword">private</span> List&lt;Object&gt; als =
+    <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
+  <span class="hljs-comment">// &#x4E00;&#x6B21;&#x6027;&#x7533;&#x8BF7;&#x6240;&#x6709;&#x8D44;&#x6E90;</span>
+  <span class="hljs-function"><span class="hljs-keyword">synchronized</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">apply</span><span class="hljs-params">(
+    Object from, Object to)</span></span>{
+    <span class="hljs-keyword">if</span>(als.contains(from) ||
+         als.contains(to)){
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>;  
+    } <span class="hljs-keyword">else</span> {
+      als.add(from);
+      als.add(to);  
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>;
+  }
+  <span class="hljs-comment">// &#x5F52;&#x8FD8;&#x8D44;&#x6E90;</span>
+  <span class="hljs-function"><span class="hljs-keyword">synchronized</span> <span class="hljs-keyword">void</span> <span class="hljs-title">free</span><span class="hljs-params">(
+    Object from, Object to)</span></span>{
+    als.remove(from);
+    als.remove(to);
+  }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
+  <span class="hljs-comment">// actr&#x5E94;&#x8BE5;&#x4E3A;&#x5355;&#x4F8B;</span>
+  <span class="hljs-keyword">private</span> Allocator actr;
+  <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> balance;
+  <span class="hljs-comment">// &#x8F6C;&#x8D26;</span>
+  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">transfer</span><span class="hljs-params">(Account target, <span class="hljs-keyword">int</span> amt)</span></span>{
+    <span class="hljs-comment">// &#x4E00;&#x6B21;&#x6027;&#x7533;&#x8BF7;&#x8F6C;&#x51FA;&#x8D26;&#x6237;&#x548C;&#x8F6C;&#x5165;&#x8D26;&#x6237;&#xFF0C;&#x76F4;&#x5230;&#x6210;&#x529F;</span>
+    <span class="hljs-keyword">while</span>(!actr.apply(<span class="hljs-keyword">this</span>, target))
+      &#xFF1B;
+    <span class="hljs-keyword">try</span>{
+      <span class="hljs-comment">// &#x9501;&#x5B9A;&#x8F6C;&#x51FA;&#x8D26;&#x6237;</span>
+      <span class="hljs-keyword">synchronized</span>(<span class="hljs-keyword">this</span>){              
+        <span class="hljs-comment">// &#x9501;&#x5B9A;&#x8F6C;&#x5165;&#x8D26;&#x6237;</span>
+        <span class="hljs-keyword">synchronized</span>(target){           
+          <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.balance &gt; amt){
+            <span class="hljs-keyword">this</span>.balance -= amt;
+            target.balance += amt;
+          }
+        }
+      }
+    } <span class="hljs-keyword">finally</span> {
+      actr.free(<span class="hljs-keyword">this</span>, target)
+    }
+  } 
+}
+</code></pre>
+<ul>
+<li>&#x5BF9;&#x4E8E;&#x201C;&#x4E0D;&#x53EF;&#x62A2;&#x5360;&#x201D;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#xFF0C;&#x5360;&#x7528;&#x90E8;&#x5206;&#x8D44;&#x6E90;&#x7684;&#x7EBF;&#x7A0B;&#x8FDB;&#x4E00;&#x6B65;&#x7533;&#x8BF7;&#x5176;&#x4ED6;&#x8D44;&#x6E90;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x7533;&#x8BF7;&#x4E0D;&#x5230;&#xFF0C;&#x53EF;&#x4EE5;&#x4E3B;&#x52A8;&#x91CA;&#x653E;&#x5B83;&#x5360;&#x6709;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x8FD9;&#x6837;&#x4E0D;&#x53EF;&#x62A2;&#x5360;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#x5C31;&#x7834;&#x574F;&#x6389;&#x4E86;&#x3002;</li>
+</ul>
+<p>java.util.concurrent &#x8FD9;&#x4E2A;&#x5305;&#x4E0B;&#x9762;&#x63D0;&#x4F9B;&#x7684; Lock &#x662F;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x7684;</p>
+<ul>
+<li>&#x5BF9;&#x4E8E;&#x201C;&#x5FAA;&#x73AF;&#x7B49;&#x5F85;&#x201D;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x9760;&#x6309;&#x5E8F;&#x7533;&#x8BF7;&#x8D44;&#x6E90;&#x6765;&#x9884;&#x9632;&#x3002;&#x6240;&#x8C13;&#x6309;&#x5E8F;&#x7533;&#x8BF7;&#xFF0C;&#x662F;&#x6307;&#x8D44;&#x6E90;&#x662F;&#x6709;&#x7EBF;&#x6027;&#x987A;&#x5E8F;&#x7684;&#xFF0C;&#x7533;&#x8BF7;&#x7684;&#x65F6;&#x5019;&#x53EF;&#x4EE5;&#x5148;&#x7533;&#x8BF7;&#x8D44;&#x6E90;&#x5E8F;&#x53F7;&#x5C0F;&#x7684;&#xFF0C;&#x518D;&#x7533;&#x8BF7;&#x8D44;&#x6E90;&#x5E8F;&#x53F7;&#x5927;&#x7684;&#xFF0C;&#x8FD9;&#x6837;&#x7EBF;&#x6027;&#x5316;&#x540E;&#x81EA;&#x7136;&#x5C31;&#x4E0D;&#x5B58;&#x5728;&#x5FAA;&#x73AF;&#x4E86;&#x3002;</li>
+</ul>
+<pre><code class="lang-java">
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
+  <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> id;
+  <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> balance;
+  <span class="hljs-comment">// &#x8F6C;&#x8D26;</span>
+  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">transfer</span><span class="hljs-params">(Account target, <span class="hljs-keyword">int</span> amt)</span></span>{
+    Account left = <span class="hljs-keyword">this</span>        &#x2460;
+    Account right = target;    &#x2461;
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.id &gt; target.id) { &#x2462;
+      left = target;           &#x2463;
+      right = <span class="hljs-keyword">this</span>;            &#x2464;
+    }                          &#x2465;
+    <span class="hljs-comment">// &#x9501;&#x5B9A;&#x5E8F;&#x53F7;&#x5C0F;&#x7684;&#x8D26;&#x6237;</span>
+    <span class="hljs-keyword">synchronized</span>(left){
+      <span class="hljs-comment">// &#x9501;&#x5B9A;&#x5E8F;&#x53F7;&#x5927;&#x7684;&#x8D26;&#x6237;</span>
+      <span class="hljs-keyword">synchronized</span>(right){ 
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.balance &gt; amt){
+          <span class="hljs-keyword">this</span>.balance -= amt;
+          target.balance += amt;
+        }
+      }
+    }
+  } 
+}
+</code></pre>
+<p>&#x8F6C;&#x8D26;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.util.ArrayList;
+<span class="hljs-keyword">import</span> java.util.List;
+<span class="hljs-keyword">import</span> java.util.concurrent.CountDownLatch;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyLock</span> </span>{
+
+    <span class="hljs-comment">// &#x6D4B;&#x8BD5;&#x8F6C;&#x8D26;&#x7684;main&#x65B9;&#x6CD5;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> InterruptedException </span>{
+
+        Account src = <span class="hljs-keyword">new</span> Account(<span class="hljs-number">10000</span>);
+        Account target = <span class="hljs-keyword">new</span> Account(<span class="hljs-number">10000</span>);
+        CountDownLatch countDownLatch = <span class="hljs-keyword">new</span> CountDownLatch(<span class="hljs-number">9999</span>);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">9999</span>; i++) {
+            <span class="hljs-keyword">new</span> Thread(() -&gt; {
+                src.transactionToTarget(<span class="hljs-number">1</span>, target);
+                countDownLatch.countDown();
+            }).start();
+        }
+        countDownLatch.await();
+        System.out.println(<span class="hljs-string">&quot;src=&quot;</span> + src.getBanalce());
+        System.out.println(<span class="hljs-string">&quot;target=&quot;</span> + target.getBanalce());
+    }
+
+    <span class="hljs-keyword">static</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{ <span class="hljs-comment">//&#x8D26;&#x6237;&#x7C7B;</span>
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Account</span><span class="hljs-params">(Integer banalce)</span> </span>{
+            <span class="hljs-keyword">this</span>.banalce = banalce;
+        }
+
+        <span class="hljs-keyword">private</span> Integer banalce;
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">transactionToTarget</span><span class="hljs-params">(Integer money, Account target)</span> </span>{<span class="hljs-comment">//&#x8F6C;&#x8D26;&#x65B9;&#x6CD5;</span>
+            Allocator.getInstance().apply(<span class="hljs-keyword">this</span>, target);
+            <span class="hljs-keyword">this</span>.banalce -= money;
+            target.setBanalce(target.getBanalce() + money);
+            Allocator.getInstance().release(<span class="hljs-keyword">this</span>, target);
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> Integer <span class="hljs-title">getBanalce</span><span class="hljs-params">()</span> </span>{
+            <span class="hljs-keyword">return</span> banalce;
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setBanalce</span><span class="hljs-params">(Integer banalce)</span> </span>{
+            <span class="hljs-keyword">this</span>.banalce = banalce;
+        }
+    }
+
+    <span class="hljs-keyword">static</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Allocator</span> </span>{ <span class="hljs-comment">//&#x5355;&#x4F8B;&#x9501;&#x7C7B;</span>
+        <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-title">Allocator</span><span class="hljs-params">()</span> </span>{
+        }
+
+        <span class="hljs-keyword">private</span> List&lt;Account&gt; locks = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">synchronized</span> <span class="hljs-keyword">void</span> <span class="hljs-title">apply</span><span class="hljs-params">(Account src, Account tag)</span> </span>{
+            <span class="hljs-keyword">while</span> (locks.contains(src) || locks.contains(tag)) {
+                <span class="hljs-keyword">try</span> {
+                    <span class="hljs-keyword">this</span>.wait();
+                } <span class="hljs-keyword">catch</span> (InterruptedException e) {
+                }
+            }
+            locks.add(src);
+            locks.add(tag);
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">synchronized</span> <span class="hljs-keyword">void</span> <span class="hljs-title">release</span><span class="hljs-params">(Account src, Account tag)</span> </span>{
+            locks.remove(src);
+            locks.remove(tag);
+            <span class="hljs-keyword">this</span>.notifyAll();
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Allocator <span class="hljs-title">getInstance</span><span class="hljs-params">()</span> </span>{
+            <span class="hljs-keyword">return</span> AllocatorSingle.install;
+        }
+
+        <span class="hljs-keyword">static</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AllocatorSingle</span> </span>{
+            <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Allocator install = <span class="hljs-keyword">new</span> Allocator();
+        }
+    }
+}
+</code></pre>
+<h3 id="&#x6D3B;&#x9501;"><a name="&#x6D3B;&#x9501;" class="anchor-navigation-ex-anchor" href="#&#x6D3B;&#x9501;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.3.2. &#x6D3B;&#x9501;</h3>
+<p>&#x6709;&#x65F6;&#x7EBF;&#x7A0B;&#x867D;&#x7136;&#x6CA1;&#x6709;&#x53D1;&#x751F;&#x963B;&#x585E;&#xFF0C;&#x4F46;&#x4ECD;&#x7136;&#x4F1A;&#x5B58;&#x5728;&#x6267;&#x884C;&#x4E0D;&#x4E0B;&#x53BB;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x6240;&#x8C13;&#x7684;&#x201C;&#x6D3B;&#x9501;&#x201D;</p>
+<p>&#x89E3;&#x51B3;&#x201C;&#x6D3B;&#x9501;&#x201D;&#x7684;&#x65B9;&#x6848;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x8C26;&#x8BA9;&#x65F6;&#xFF0C;&#x5C1D;&#x8BD5;&#x7B49;&#x5F85;&#x4E00;&#x4E2A;&#x968F;&#x673A;&#x7684;&#x65F6;&#x95F4;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;&#x4F8B;&#x5982;&#x4E0A;&#x9762;&#x7684;&#x90A3;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x8DEF;&#x4EBA;&#x7532;&#x8D70;&#x5DE6;&#x624B;&#x8FB9;&#x53D1;&#x73B0;&#x524D;&#x9762;&#x6709;&#x4EBA;&#xFF0C;&#x5E76;&#x4E0D;&#x662F;&#x7ACB;&#x523B;&#x6362;&#x5230;&#x53F3;&#x624B;&#x8FB9;&#xFF0C;&#x800C;&#x662F;&#x7B49;&#x5F85;&#x4E00;&#x4E2A;&#x968F;&#x673A;&#x7684;&#x65F6;&#x95F4;&#x540E;&#xFF0C;&#x518D;&#x6362;&#x5230;&#x53F3;&#x624B;&#x8FB9;&#xFF1B;&#x540C;&#x6837;&#xFF0C;&#x8DEF;&#x4EBA;&#x4E59;&#x4E5F;&#x4E0D;&#x662F;&#x7ACB;&#x523B;&#x5207;&#x6362;&#x8DEF;&#x7EBF;&#xFF0C;&#x4E5F;&#x662F;&#x7B49;&#x5F85;&#x4E00;&#x4E2A;&#x968F;&#x673A;&#x7684;&#x65F6;&#x95F4;&#x518D;&#x5207;&#x6362;&#x3002;&#x7531;&#x4E8E;&#x8DEF;&#x4EBA;&#x7532;&#x548C;&#x8DEF;&#x4EBA;&#x4E59;&#x7B49;&#x5F85;&#x7684;&#x65F6;&#x95F4;&#x662F;&#x968F;&#x673A;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x540C;&#x65F6;&#x76F8;&#x649E;&#x540E;&#x518D;&#x6B21;&#x76F8;&#x649E;&#x7684;&#x6982;&#x7387;&#x5C31;&#x5F88;&#x4F4E;&#x4E86;&#x3002;&#x201C;&#x7B49;&#x5F85;&#x4E00;&#x4E2A;&#x968F;&#x673A;&#x65F6;&#x95F4;&#x201D;&#x7684;&#x65B9;&#x6848;&#x867D;&#x7136;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x5374;&#x975E;&#x5E38;&#x6709;&#x6548;&#xFF0C;Raft
+&#x8FD9;&#x6837;&#x77E5;&#x540D;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x4E00;&#x81F4;&#x6027;&#x7B97;&#x6CD5;&#x4E2D;&#x4E5F;&#x7528;&#x5230;&#x4E86;&#x5B83;&#x3002;</p>
+<h3 id="&#x9965;&#x997F;"><a name="&#x9965;&#x997F;" class="anchor-navigation-ex-anchor" href="#&#x9965;&#x997F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.3.3. &#x9965;&#x997F;</h3>
+<p>&#x6240;&#x8C13;&#x201C;&#x9965;&#x997F;&#x201D;&#x6307;&#x7684;&#x662F;&#x7EBF;&#x7A0B;&#x56E0;&#x65E0;&#x6CD5;&#x8BBF;&#x95EE;&#x6240;&#x9700;&#x8D44;&#x6E90;&#x800C;&#x65E0;&#x6CD5;&#x6267;&#x884C;&#x4E0B;&#x53BB;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x201C;&#x4E0D;&#x60A3;&#x5BE1;&#xFF0C;&#x800C;&#x60A3;&#x4E0D;&#x5747;&#x201D;&#xFF0C;&#x5982;&#x679C;&#x7EBF;&#x7A0B;&#x4F18;&#x5148;&#x7EA7;&#x201C;&#x4E0D;&#x5747;&#x201D;&#xFF0C;&#x5728; CPU
+&#x7E41;&#x5FD9;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4F18;&#x5148;&#x7EA7;&#x4F4E;&#x7684;&#x7EBF;&#x7A0B;&#x5F97;&#x5230;&#x6267;&#x884C;&#x7684;&#x673A;&#x4F1A;&#x5F88;&#x5C0F;&#xFF0C;&#x5C31;&#x53EF;&#x80FD;&#x53D1;&#x751F;&#x7EBF;&#x7A0B;&#x201C;&#x9965;&#x997F;&#x201D;&#xFF1B;&#x6301;&#x6709;&#x9501;&#x7684;&#x7EBF;&#x7A0B;&#xFF0C;&#x5982;&#x679C;&#x6267;&#x884C;&#x7684;&#x65F6;&#x95F4;&#x8FC7;&#x957F;&#xFF0C;&#x4E5F;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x201C;&#x9965;&#x997F;&#x201D;&#x95EE;&#x9898;</p>
+<p>&#x89E3;&#x51B3;&#x201C;&#x9965;&#x997F;&#x201D;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6848;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x6709;&#x4E09;&#x79CD;&#x65B9;&#x6848;&#xFF1A;&#x4E00;&#x662F;&#x4FDD;&#x8BC1;&#x8D44;&#x6E90;&#x5145;&#x8DB3;&#xFF0C;&#x4E8C;&#x662F;&#x516C;&#x5E73;&#x5730;&#x5206;&#x914D;&#x8D44;&#x6E90;&#xFF0C;&#x4E09;&#x5C31;&#x662F;&#x907F;&#x514D;&#x6301;&#x6709;&#x9501;&#x7684;&#x7EBF;&#x7A0B;&#x957F;&#x65F6;&#x95F4;&#x6267;&#x884C;&#x3002;</p>
+<h2 id="&#x7EBF;&#x7A0B;"><a name="&#x7EBF;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x7EBF;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.4. &#x7EBF;&#x7A0B;</h2>
+<p>Java &#x8BED;&#x8A00;&#x4E2D;&#x7EBF;&#x7A0B;&#x5171;&#x6709;&#x516D;&#x79CD;&#x72B6;&#x6001;&#xFF0C;&#x5206;&#x522B;&#x662F;&#xFF1A;</p>
+<p>NEW&#xFF08;&#x521D;&#x59CB;&#x5316;&#x72B6;&#x6001;&#xFF09;</p>
+<p>RUNNABLE&#xFF08;&#x53EF;&#x8FD0;&#x884C; / &#x8FD0;&#x884C;&#x72B6;&#x6001;&#xFF09;BLOCKED&#xFF08;&#x963B;&#x585E;&#x72B6;&#x6001;&#xFF09;WAITING&#xFF08;&#x65E0;&#x65F6;&#x9650;&#x7B49;&#x5F85;&#xFF09;TIMED_WAITING&#xFF08;&#x6709;&#x65F6;&#x9650;&#x7B49;&#x5F85;&#xFF09;</p>
+<p>TERMINATED&#xFF08;&#x7EC8;&#x6B62;&#x72B6;&#x6001;&#xFF09;</p>
+<p><img src="../../assets/image-20221123155038577.png" alt="image-20221123155038577"></p>
+<p>&#x6700;&#x4F73;&#x7EBF;&#x7A0B;&#x6570; =CPU &#x6838;&#x6570; * [ 1 +&#xFF08;I/O &#x8017;&#x65F6; / CPU &#x8017;&#x65F6;&#xFF09;]</p>
+<h3 id="semaphore&#x4FE1;&#x53F7;&#x91CF;"><a name="semaphore&#x4FE1;&#x53F7;&#x91CF;" class="anchor-navigation-ex-anchor" href="#semaphore&#x4FE1;&#x53F7;&#x91CF;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.4.1. Semaphore(&#x4FE1;&#x53F7;&#x91CF;)</h3>
+<p>Semaphore &#x53EF;&#x4EE5;&#x5141;&#x8BB8;&#x591A;&#x4E2A;&#x7EBF;&#x7A0B;&#x8BBF;&#x95EE;&#x4E00;&#x4E2A;&#x4E34;&#x754C;&#x533A;&#x3002;</p>
+<p>init()&#xFF1A;&#x8BBE;&#x7F6E;&#x8BA1;&#x6570;&#x5668;&#x7684;&#x521D;&#x59CB;&#x503C;&#x3002;</p>
+<p>down()&#xFF1A;&#x8BA1;&#x6570;&#x5668;&#x7684;&#x503C;&#x51CF; 1&#xFF1B;&#x5982;&#x679C;&#x6B64;&#x65F6;&#x8BA1;&#x6570;&#x5668;&#x7684;&#x503C;&#x5C0F;&#x4E8E; 0&#xFF0C;&#x5219;&#x5F53;&#x524D;&#x7EBF;&#x7A0B;&#x5C06;&#x88AB;&#x963B;&#x585E;&#xFF0C;&#x5426;&#x5219;&#x5F53;&#x524D;&#x7EBF;&#x7A0B;&#x53EF;&#x4EE5;&#x7EE7;&#x7EED;&#x6267;&#x884C;&#x3002;</p>
+<p>up()&#xFF1A;&#x8BA1;&#x6570;&#x5668;&#x7684;&#x503C;&#x52A0; 1&#xFF1B;&#x5982;&#x679C;&#x6B64;&#x65F6;&#x8BA1;&#x6570;&#x5668;&#x7684;&#x503C;&#x5C0F;&#x4E8E;&#x6216;&#x8005;&#x7B49;&#x4E8E; 0&#xFF0C;&#x5219;&#x5524;&#x9192;&#x7B49;&#x5F85;&#x961F;&#x5217;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#xFF0C;&#x5E76;&#x5C06;&#x5176;&#x4ECE;&#x7B49;&#x5F85;&#x961F;&#x5217;&#x4E2D;&#x79FB;&#x9664;&#x3002;</p>
+<pre><code class="lang-java">
+<span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> count;
+<span class="hljs-comment">//&#x521D;&#x59CB;&#x5316;&#x4FE1;&#x53F7;&#x91CF;</span>
+<span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> Semaphore s 
+    = <span class="hljs-keyword">new</span> Semaphore(<span class="hljs-number">1</span>);
+<span class="hljs-comment">//&#x7528;&#x4FE1;&#x53F7;&#x91CF;&#x4FDD;&#x8BC1;&#x4E92;&#x65A5;    </span>
+<span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addOne</span><span class="hljs-params">()</span> </span>{
+  s.acquire();
+  <span class="hljs-keyword">try</span> {
+    count+=<span class="hljs-number">1</span>;
+  } <span class="hljs-keyword">finally</span> {
+    s.release();
+  }
+}
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Semaphore</span></span>{
+  <span class="hljs-comment">// &#x8BA1;&#x6570;&#x5668;</span>
+  <span class="hljs-keyword">int</span> count;
+  <span class="hljs-comment">// &#x7B49;&#x5F85;&#x961F;&#x5217;</span>
+  Queue queue;
+  <span class="hljs-comment">// &#x521D;&#x59CB;&#x5316;&#x64CD;&#x4F5C;</span>
+  Semaphore(<span class="hljs-keyword">int</span> c){
+    <span class="hljs-keyword">this</span>.count=c;
+  }
+  <span class="hljs-comment">// </span>
+  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">down</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">this</span>.count--;
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.count&lt;<span class="hljs-number">0</span>){
+      <span class="hljs-comment">//&#x5C06;&#x5F53;&#x524D;&#x7EBF;&#x7A0B;&#x63D2;&#x5165;&#x7B49;&#x5F85;&#x961F;&#x5217;</span>
+      <span class="hljs-comment">//&#x963B;&#x585E;&#x5F53;&#x524D;&#x7EBF;&#x7A0B;</span>
+    }
+  }
+  <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">up</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">this</span>.count++;
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.count&lt;=<span class="hljs-number">0</span>) {
+      <span class="hljs-comment">//&#x79FB;&#x9664;&#x7B49;&#x5F85;&#x961F;&#x5217;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;&#x7EBF;&#x7A0B;T</span>
+      <span class="hljs-comment">//&#x5524;&#x9192;&#x7EBF;&#x7A0B;T</span>
+    }
+  }
+}
+
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ObjPool</span>&lt;<span class="hljs-title">T</span>, <span class="hljs-title">R</span>&gt; </span>{
+  <span class="hljs-keyword">final</span> List&lt;T&gt; pool;
+  <span class="hljs-comment">// &#x7528;&#x4FE1;&#x53F7;&#x91CF;&#x5B9E;&#x73B0;&#x9650;&#x6D41;&#x5668;</span>
+  <span class="hljs-keyword">final</span> Semaphore sem;
+  <span class="hljs-comment">// &#x6784;&#x9020;&#x51FD;&#x6570;</span>
+  ObjPool(<span class="hljs-keyword">int</span> size, T t){
+    pool = <span class="hljs-keyword">new</span> Vector&lt;T&gt;(){};
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=<span class="hljs-number">0</span>; i&lt;size; i++){
+      pool.add(t);
+    }
+    sem = <span class="hljs-keyword">new</span> Semaphore(size);
+  }
+  <span class="hljs-comment">// &#x5229;&#x7528;&#x5BF9;&#x8C61;&#x6C60;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x8C03;&#x7528;func</span>
+  <span class="hljs-function">R <span class="hljs-title">exec</span><span class="hljs-params">(Function&lt;T,R&gt; func)</span> </span>{
+    T t = <span class="hljs-keyword">null</span>;
+    sem.acquire();
+    <span class="hljs-keyword">try</span> {
+      t = pool.remove(<span class="hljs-number">0</span>);
+      <span class="hljs-keyword">return</span> func.apply(t);
+    } <span class="hljs-keyword">finally</span> {
+      pool.add(t);
+      sem.release();
+    }
+  }
+}
+<span class="hljs-comment">// &#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x6C60;</span>
+ObjPool&lt;Long, String&gt; pool = 
+  <span class="hljs-keyword">new</span> ObjPool&lt;Long, String&gt;(<span class="hljs-number">10</span>, <span class="hljs-number">2</span>);
+<span class="hljs-comment">// &#x901A;&#x8FC7;&#x5BF9;&#x8C61;&#x6C60;&#x83B7;&#x53D6;t&#xFF0C;&#x4E4B;&#x540E;&#x6267;&#x884C;  </span>
+pool.exec(t -&gt; {
+    System.out.println(t);
+    <span class="hljs-keyword">return</span> t.toString();
+});
+</code></pre>
+<h3 id="readwritelock"><a name="readwritelock" class="anchor-navigation-ex-anchor" href="#readwritelock"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.4.2. ReadWriteLock</h3>
+<p>&#x5141;&#x8BB8;&#x591A;&#x4E2A;&#x7EBF;&#x7A0B;&#x540C;&#x65F6;&#x8BFB;&#x5171;&#x4EAB;&#x53D8;&#x91CF;&#xFF1B;</p>
+<p>&#x53EA;&#x5141;&#x8BB8;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x5199;&#x5171;&#x4EAB;&#x53D8;&#x91CF;&#xFF1B;</p>
+<p>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x5199;&#x7EBF;&#x7A0B;&#x6B63;&#x5728;&#x6267;&#x884C;&#x5199;&#x64CD;&#x4F5C;&#xFF0C;&#x6B64;&#x65F6;&#x7981;&#x6B62;&#x8BFB;&#x7EBF;&#x7A0B;&#x8BFB;&#x5171;&#x4EAB;&#x53D8;&#x91CF;&#x3002;</p>
+<h3 id="stampedlock"><a name="stampedlock" class="anchor-navigation-ex-anchor" href="#stampedlock"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1.1.4.3. StampedLock</h3>
+<p>&#x5199;&#x9501;&#x3001;&#x60B2;&#x89C2;&#x8BFB;&#x9501;&#x548C;&#x4E50;&#x89C2;&#x8BFB;.StampedLock &#x4E0D;&#x652F;&#x6301;&#x91CD;&#x5165;</p>
+<p>&#x4F7F;&#x7528; StampedLock &#x4E00;&#x5B9A;&#x4E0D;&#x8981;&#x8C03;&#x7528;&#x4E2D;&#x65AD;&#x64CD;&#x4F5C;&#xFF0C;&#x5982;&#x679C;&#x9700;&#x8981;&#x652F;&#x6301;&#x4E2D;&#x65AD;&#x529F;&#x80FD;&#xFF0C;&#x4E00;&#x5B9A;&#x4F7F;&#x7528;&#x53EF;&#x4E2D;&#x65AD;&#x7684;&#x60B2;&#x89C2;&#x8BFB;&#x9501; readLockInterruptibly() &#x548C;&#x5199;&#x9501; writeLockInterruptibly()&#x3002;&#x8FD9;&#x4E2A;&#x89C4;&#x5219;&#x4E00;&#x5B9A;&#x8981;&#x8BB0;&#x6E05;&#x695A;&#x3002;</p>
+<p>&#x5176;&#x4E2D;&#xFF0C;&#x5199;&#x9501;&#x3001;&#x60B2;&#x89C2;&#x8BFB;&#x9501;&#x7684;&#x8BED;&#x4E49;&#x548C; ReadWriteLock &#x7684;&#x5199;&#x9501;&#x3001;&#x8BFB;&#x9501;&#x7684;&#x8BED;&#x4E49;&#x975E;&#x5E38;&#x7C7B;&#x4F3C;&#xFF0C;&#x5141;&#x8BB8;&#x591A;&#x4E2A;&#x7EBF;&#x7A0B;&#x540C;&#x65F6;&#x83B7;&#x53D6;&#x60B2;&#x89C2;&#x8BFB;&#x9501;&#xFF0C;&#x4F46;&#x662F;&#x53EA;&#x5141;&#x8BB8;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x83B7;&#x53D6;&#x5199;&#x9501;&#xFF0C;&#x5199;&#x9501;&#x548C;&#x60B2;&#x89C2;&#x8BFB;&#x9501;&#x662F;&#x4E92;&#x65A5;&#x7684;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF1A;StampedLock
+&#x91CC;&#x7684;&#x5199;&#x9501;&#x548C;&#x60B2;&#x89C2;&#x8BFB;&#x9501;&#x52A0;&#x9501;&#x6210;&#x529F;&#x4E4B;&#x540E;&#xFF0C;&#x90FD;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A; stamp&#xFF1B;&#x7136;&#x540E;&#x89E3;&#x9501;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x9700;&#x8981;&#x4F20;&#x5165;&#x8FD9;&#x4E2A; stamp&#x3002;&#x76F8;&#x5173;&#x7684;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-java">
+<span class="hljs-keyword">final</span> StampedLock sl = 
+  <span class="hljs-keyword">new</span> StampedLock();
+
+<span class="hljs-comment">// &#x83B7;&#x53D6;/&#x91CA;&#x653E;&#x60B2;&#x89C2;&#x8BFB;&#x9501;&#x793A;&#x610F;&#x4EE3;&#x7801;</span>
+<span class="hljs-keyword">long</span> stamp = sl.readLock();
+<span class="hljs-keyword">try</span> {
+  <span class="hljs-comment">//&#x7701;&#x7565;&#x4E1A;&#x52A1;&#x76F8;&#x5173;&#x4EE3;&#x7801;</span>
+} <span class="hljs-keyword">finally</span> {
+  sl.unlockRead(stamp);
+}
+
+<span class="hljs-comment">// &#x83B7;&#x53D6;/&#x91CA;&#x653E;&#x5199;&#x9501;&#x793A;&#x610F;&#x4EE3;&#x7801;</span>
+<span class="hljs-keyword">long</span> stamp = sl.writeLock();
+<span class="hljs-keyword">try</span> {
+  <span class="hljs-comment">//&#x7701;&#x7565;&#x4E1A;&#x52A1;&#x76F8;&#x5173;&#x4EE3;&#x7801;</span>
+} <span class="hljs-keyword">finally</span> {
+  sl.unlockWrite(stamp);
+}
+
+
+
+
+<span class="hljs-keyword">final</span> StampedLock sl = 
+  <span class="hljs-keyword">new</span> StampedLock();
+
+<span class="hljs-comment">// &#x4E50;&#x89C2;&#x8BFB;</span>
+<span class="hljs-keyword">long</span> stamp = 
+  sl.tryOptimisticRead();
+<span class="hljs-comment">// &#x8BFB;&#x5165;&#x65B9;&#x6CD5;&#x5C40;&#x90E8;&#x53D8;&#x91CF;</span>
+......
+<span class="hljs-comment">// &#x6821;&#x9A8C;stamp</span>
+<span class="hljs-keyword">if</span> (!sl.validate(stamp)){
+  <span class="hljs-comment">// &#x5347;&#x7EA7;&#x4E3A;&#x60B2;&#x89C2;&#x8BFB;&#x9501;</span>
+  stamp = sl.readLock();
+  <span class="hljs-keyword">try</span> {
+    <span class="hljs-comment">// &#x8BFB;&#x5165;&#x65B9;&#x6CD5;&#x5C40;&#x90E8;&#x53D8;&#x91CF;</span>
+    .....
+  } <span class="hljs-keyword">finally</span> {
+    <span class="hljs-comment">//&#x91CA;&#x653E;&#x60B2;&#x89C2;&#x8BFB;&#x9501;</span>
+    sl.unlockRead(stamp);
+  }
+}
+<span class="hljs-comment">//&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x6267;&#x884C;&#x4E1A;&#x52A1;&#x64CD;&#x4F5C;</span>
+......
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="从0开始学架构.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 从0开始学架构">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"java并发编程","level":"1.3.1","depth":2,"next":{"title":"从0开始学架构","level":"1.3.2","depth":2,"path":"md/kecheng/从0开始学架构.md","ref":"md/kecheng/从0开始学架构.md","articles":[]},"previous":{"title":"课程","level":"1.3","depth":1,"ref":"","articles":[{"title":"java并发编程","level":"1.3.1","depth":2,"path":"md/kecheng/java并发编程.md","ref":"md/kecheng/java并发编程.md","articles":[]},{"title":"从0开始学架构","level":"1.3.2","depth":2,"path":"md/kecheng/从0开始学架构.md","ref":"md/kecheng/从0开始学架构.md","articles":[]},{"title":"搭建秒杀系统","level":"1.3.3","depth":2,"path":"md/kecheng/搭建秒杀系统.md","ref":"md/kecheng/搭建秒杀系统.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","github","-sharing","search-pro","-search","-lunr","page-treeview","anchor-navigation-ex","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"page-treeview":{"collapsed":false,"copyright":"","minHeaderCount":"2","minHeaderDeep":"2"},"github":{"url":""},"livereload":{},"search-pro":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"md/kecheng/java并发编程.md","mtime":"2023-02-27T00:29:21.612Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-10-07T02:12:43.081Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
